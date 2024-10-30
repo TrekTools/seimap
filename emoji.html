@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>World Emoji</title>
+</head>
+<body>
+    <canvas id="emoji" width="64" height="64"></canvas>
+    <script>
+        const canvas = document.getElementById('emoji');
+        const ctx = canvas.getContext('2d');
+        ctx.font = '64px serif';
+        ctx.fillText('🌎', 0, 64);
+    </script>
+</body>
+</html>
