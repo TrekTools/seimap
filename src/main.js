@@ -1,3 +1,4 @@
+import './polyfills'
 import { createApp, provide, h } from 'vue'
 import { ApolloClient, createHttpLink, InMemoryCache } from '@apollo/client/core'
 import { DefaultApolloClient } from '@vue/apollo-composable'

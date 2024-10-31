@@ -5,6 +5,7 @@ import AboutPage from '@/views/AboutPage.vue'
 import TheMap from '@/views/TheMap.vue'
 import LeaderboardPage from '@/views/LeaderboardPage.vue'
 import SeipexPage from '../views/SeipexPage.vue'
+import StartView from '@/views/StartView.vue'
 
 const routes = [
   {
@@ -36,6 +37,11 @@ const routes = [
     path: '/seipex',
     name: 'seipex',
     component: SeipexPage
+  },
+  {
+    path: '/start',
+    name: 'start',
+    component: StartView
   }
 ]
 

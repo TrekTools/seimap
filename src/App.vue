@@ -6,6 +6,7 @@
       </router-link>
       <div class="navbar-links">
         <router-link to="/" class="nav-link">Home</router-link>
+        <router-link to="/start" class="nav-link">Start</router-link>
         <router-link to="/submit" class="nav-link">Submit</router-link>
         <router-link to="/about" class="nav-link">About</router-link>
         <router-link to="/map" class="nav-link">The Map</router-link>

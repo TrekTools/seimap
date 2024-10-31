@@ -9,10 +9,14 @@
   },
   "dependencies": {
     "@apollo/client": "^3.11.8",
+    "@cosmjs/proto-signing": "^0.32.4",
+    "@sei-js/core": "^3.2.1",
     "@vue/apollo-composable": "^4.2.1",
     "axios": "^1.7.7",
+    "bip39": "^3.1.0",
     "chart.js": "^4.4.6",
     "core-js": "^3.8.3",
+    "ethers": "^6.13.4",
     "graphql": "^16.9.0",
     "vue": "^3.2.13",
     "vue-chartjs": "^5.3.1",
@@ -24,11 +28,20 @@
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
+    "@babel/plugin-transform-class-properties": "^7.25.9",
+    "@babel/plugin-transform-private-methods": "^7.25.9",
+    "@babel/plugin-transform-private-property-in-object": "^7.25.9",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "assert": "^2.1.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.1",
     "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3"
+    "eslint-plugin-vue": "^8.0.3",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0"
   },
   "eslintConfig": {
     "root": true,
