@@ -113,7 +113,7 @@ export default {
         { 
           title: 'Chronicles of Kryme', 
           description: 'Blog of Sei\'s #1 BS-fighter', 
-          image: 'https://cdn.discordapp.com/attachments/1294239583659364363/1299065924036333619/Head.png?ex=671bd8eb&is=671a876b&hm=2130f6d7684887be3cca6a85177ea6b083a427a2e2421a3fe5dcbe8ef3077221&',
+          image: 'https://i.imgur.com/v3Dma5x.png',
           link: 'https://medium.com/@craftycanines'
         },
         { 
