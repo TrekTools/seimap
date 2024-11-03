@@ -30,7 +30,7 @@
         </div>
         <div class="summary-card">
           <h3>Migrated Tokens</h3>
-          <p class="card-value">{{ migratedCount }} / {{ tokenItems.length }}</p>
+          <p class="card-value">{{ migratedCount }}</p>
         </div>
       </div>
 
