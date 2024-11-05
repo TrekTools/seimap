@@ -6,6 +6,7 @@ import TheMap from '@/views/TheMap.vue'
 import LeaderboardPage from '@/views/LeaderboardPage.vue'
 import SeipexPage from '../views/SeipexPage.vue'
 import StartView from '@/views/StartView.vue'
+import TrekStarmap from '@/views/TrekStarmap.vue'
 
 const routes = [
   {
@@ -42,6 +43,11 @@ const routes = [
     path: '/start',
     name: 'start',
     component: StartView
+  },
+  {
+    path: '/starmap',
+    name: 'starmap',
+    component: TrekStarmap
   }
 ]
 

@@ -12,6 +12,7 @@
         <router-link to="/map" class="nav-link">The Map</router-link>
         <router-link to="/leaderboard" class="nav-link">Leaderboard</router-link>
         <router-link to="/seipex" class="nav-link">Seipex</router-link>
+        <router-link to="/starmap" class="nav-link">Starmap</router-link>
       </div>
     </nav>
     <router-view></router-view>
